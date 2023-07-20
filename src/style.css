@@ -11,7 +11,8 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  /* --imp-text-color: #c770f0; */
+  --imp-text-color: #81FFD9;
 }
 
 .purple {
@@ -155,8 +156,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.5em !important;
+  width: 12.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -379,13 +380,14 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #81FFD9;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  /* color: #87209e; */
+  color: #81FFD9; 
+  box-shadow: 0 0 5px #81FFD9;
+  text-shadow: 0 0 2px #81FFD9;
 }
 
 .social-icons {
@@ -395,7 +397,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #81FFD9 !important;
 }
 
 /* --------- */
@@ -645,7 +647,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #81FFD9;
   position: relative;
 }
 
@@ -682,7 +684,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #81FFD9;
 }
 
 .like-item {
