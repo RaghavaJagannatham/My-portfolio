@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 	title: "Raghava | Portfolio",
 	description: "Raghava Jagannatham Portfolio",
 	icons: {
-		icon: "/logosm.png", // Path to the favicon
+		icon: "/logosmall.png", // Path to the favicon
 	},
 };
 
