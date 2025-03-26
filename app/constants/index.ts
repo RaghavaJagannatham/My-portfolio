@@ -148,7 +148,7 @@ const testimonials = [
 		id: 3,
 		testimonial:"",
 		name: "Raghava Jagannatham",
-		image: "/logosmall.png",
+		image: "/logosm.png",
 		link: "https://raghava-portfolio.netlify.app/",
 	},
 	{
