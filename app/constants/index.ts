@@ -16,19 +16,19 @@ export const navLinks = [
 const services = [
 	{
 		title: "Frontend web developer",
-		icon: "/backend.webp",
+		icon: "/frontend.webp",
 	},
 	{
 		title: "Associate Team Lead",
-		icon: "/web.webp",
+		icon: "/associate.png",
 	},
 	{
 		title: "Software Engineer",
-		icon: "/mobile.webp",
+		icon: "/software.png",
 	},
 	{
 		title: "AI Researcher",
-		icon: "/creator.webp",
+		icon: "/airesearch.png",
 	},
 ];
 
@@ -91,7 +91,7 @@ const experiences = [
 	{
 		title: "SOFTWARE ENGINEER",
 		company_name: "CMUnity",
-		icon: "/company/avm.webp",
+		icon: "/company/CMunity.webp",
 		iconBg: "#383E56",
 		date: "2024 -  present",
 		points: [
@@ -104,7 +104,7 @@ const experiences = [
 	{
 		title: "Associate Team Lead",
 		company_name: "DP World",
-		icon: "/company/sparkbright.webp",
+		icon: "/company/dpworldlogo.svg",
 		iconBg: "#E6DEDD",
 		date: "2023 - 2024",
 		points: [
@@ -117,7 +117,7 @@ const experiences = [
 	{
 		title: "FRONTEND DEVELOPER",
 		company_name: "QR Solutions",
-		icon: "/company/wtw.jpg",
+		icon: "/company/QRS.svg",
 		iconBg: "#E6DEDD",
 		date: "2024 - Present",
 		points: [
@@ -140,15 +140,15 @@ const testimonials = [
 	{
 		id: 2,
 		testimonial:"",
-		name: "Raghava Jagannatham",
-		image: "/socialmedia/linkedin.svg",
+		name: "Raghavastwt",
+		image: "/xlogo.jpg",
 		link: "https://x.com/Raghavastwt",
 	},
 	{
 		id: 3,
 		testimonial:"",
 		name: "Raghava Jagannatham",
-		image: "/socialmedia/portfolio.svg",
+		image: "/logosmall.png",
 		link: "https://raghava-portfolio.netlify.app/",
 	},
 	{
@@ -174,9 +174,9 @@ const projects :{
 	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
 }[] = [
 	{
-		name: "A.V.M Auto Portfolio",
+		name: "Algo AI",
 		description:
-			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+			"A cutting-edge educational platform designed to simplify complex AI and machine learning concepts. Through engaging videos and relatable analogies, Algo AI makes advanced technology accessible to learners of all levels.",
 		tags: [
 			{
 				name: "wordpress",
@@ -188,13 +188,14 @@ const projects :{
 			},
 		],
 		image: "/proj3.svg",
-		platform: "Wordpress",
-		deploy_link: "https://avmauto.in/",
+		source_code_link: "https://github.com/RaghavaJagannatham/AlgoAI",
+		platform: "Vercel",
+		deploy_link: "https://algo-ai-chi.vercel.app/",
 	},
 	{
-		name: "Sparkbright Engineering Portfolio",
+		name: "Neighbour",
 		description:
-			" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+			"A community-driven platform focused on fostering connections and local support. Neighbour enables users to share resources, skills, and information, strengthening neighborhood bonds through technology",
 		tags: [
 			{
 				name: "next",
@@ -210,14 +211,14 @@ const projects :{
 			},
 		],
 		image: "/proj5.svg",
-		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
-		platform: "Web",
-		deploy_link: "https://sparkbright.in/",
+		source_code_link: "https://github.com/RaghavaJagannatham/Neighbour",
+		platform: "Vercel",
+		deploy_link: "https://neighbour-next.vercel.app/",
 	},
 	{
-		name: "HooBank",
+		name: "Finance AI",
 		description:
-			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
+			"An intelligent financial assistant aimed at empowering users to make smarter financial decisions. Finance AI provides insights, budgeting tools, and personalized recommendations to help users manage and grow their wealth",
 		tags: [
 			{
 				name: "next",
@@ -229,14 +230,14 @@ const projects :{
 			},
 		],
 		image: "/proj4.svg",
-		source_code_link: "https://github.com/omunite215/hoobank",
+		source_code_link: "https://github.com/RaghavaJagannatham/FinanceAI",
 		platform: "Vercel",
-		deploy_link: "https://hoobankbyom.netlify.app/",
+		deploy_link: "https://finance-ai-taupe.vercel.app/",
 	},
 	{
-		name: "MERN Dashboard",
+		name: "Chatify",
 		description:
-			" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
+			"A dynamic chat-based solution enhancing communication and engagement. Chatify offers seamless real-time interaction with intelligent features designed to improve user experience across various platforms",
 		tags: [
 			{
 				name: "react",
@@ -256,9 +257,9 @@ const projects :{
 			},
 		],
 		image: "/proj2.svg",
-		source_code_link: "https://github.com/omunite215/Project_MERN-Dashboard",
+		source_code_link: "",
 		platform: "Web",
-		deploy_link: "https://admin-frontend-r705.onrender.com/",
+		deploy_link: "https://chatify-49.web.app/",
 	}
 ];
 

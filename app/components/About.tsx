@@ -27,10 +27,10 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
 					<div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
 						<Image
 							src={icon}
-							width={64}
-							height={64}
+							width={200}
+							height={200}
 							alt={title}
-							className="w-16 h-16 object-contain"
+							className="object-contain"
 						/>
 						<h3 className="text-white text-[20px] font-bold text-center">
 							{title}
@@ -47,20 +47,19 @@ const About = () => {
 		<>
 			<motion.div variants={textVariant()}>
 				<p className="sectionSubText">Introduction</p>
-				<h2 className="styles.sectionHeadText">Overview.</h2>
+				{/* <h2 className="styles.sectionHeadText">Overview.</h2> */}
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
 			>
-				Dynamic Full-Stack Developer with a passion for crafting innovative web
-				applications. Proven expertise in React, Next.js, Node.js, and Python.
-				Skilled in UI/UX design and DevOps (Docker). Proven ability to deliver high-quality,
-				scalable solutions, as demonstrated by a strong portfolio of full-stack
-				Next.js projects and modern UI/UX designs. Eager to leverage my
-				technical prowess and problem-solving abilities to contribute to
-				cutting-edge projects and drive innovation.
+				🚀 Crafting seamless digital experiences! With 3+ years in frontend development, 
+				I specialize in building scalable, high-performance web applications using React, 
+				Next.js, and TypeScript. Passionate about clean code, performance optimization, and intuitive UI/UX, 
+				I’ve delivered impactful solutions across startups and enterprise environments. 
+				From leading frontend teams to enhancing user engagement by 30%+, 
+				I thrive on solving complex challenges and pushing boundaries in web development.
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
